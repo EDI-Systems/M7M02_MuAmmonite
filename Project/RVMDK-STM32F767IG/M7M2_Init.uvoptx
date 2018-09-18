@@ -73,7 +73,7 @@
         <LExpSel>0</LExpSel>
       </OPTXL>
       <OPTFL>
-        <tvExp>1</tvExp>
+        <tvExp>0</tvExp>
         <tvExpOptDlg>0</tvExpOptDlg>
         <IsCurrentTarget>1</IsCurrentTarget>
       </OPTFL>
@@ -232,7 +232,7 @@
 
   <Group>
     <GroupName>Init</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -243,8 +243,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\MAmmonite\Init\init.c</PathWithFileName>
-      <FilenameWithoutPath>init.c</FilenameWithoutPath>
+      <PathWithFileName>..\..\MAmmonite\Init\rvm_init.c</PathWithFileName>
+      <FilenameWithoutPath>rvm_init.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -252,11 +252,11 @@
       <GroupNumber>1</GroupNumber>
       <FileNumber>2</FileNumber>
       <FileType>1</FileType>
-      <tvExp>1</tvExp>
+      <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\MAmmonite\Init\syssvc.c</PathWithFileName>
-      <FilenameWithoutPath>syssvc.c</FilenameWithoutPath>
+      <PathWithFileName>..\..\MAmmonite\Init\rvm_syssvc.c</PathWithFileName>
+      <FilenameWithoutPath>rvm_syssvc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -267,8 +267,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\MAmmonite\Init\hyper.c</PathWithFileName>
-      <FilenameWithoutPath>hyper.c</FilenameWithoutPath>
+      <PathWithFileName>..\..\MAmmonite\Init\rvm_hyper.c</PathWithFileName>
+      <FilenameWithoutPath>rvm_hyper.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -299,8 +299,8 @@
       <tvExp>1</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\MAmmonite\Platform\CortexM\rvmlib_cmx.c</PathWithFileName>
-      <FilenameWithoutPath>rvmlib_cmx.c</FilenameWithoutPath>
+      <PathWithFileName>..\..\MAmmonite\Platform\CortexM\rvm_platform_cmx.c</PathWithFileName>
+      <FilenameWithoutPath>rvm_platform_cmx.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -311,8 +311,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\MAmmonite\Platform\CortexM\rvmlib_cmx_asm.s</PathWithFileName>
-      <FilenameWithoutPath>rvmlib_cmx_asm.s</FilenameWithoutPath>
+      <PathWithFileName>..\..\MAmmonite\Platform\CortexM\rvm_platform_cmx_asm.s</PathWithFileName>
+      <FilenameWithoutPath>rvm_platform_cmx_asm.s</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -323,8 +323,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\MAmmonite\Include\Platform\CortexM\Chips\STM32F767IG\init_STM32F767IG.sct</PathWithFileName>
-      <FilenameWithoutPath>init_STM32F767IG.sct</FilenameWithoutPath>
+      <PathWithFileName>..\..\MAmmonite\Include\Platform\CortexM\Chips\STM32F767IG\rvm_platform_STM32F767IG.sct</PathWithFileName>
+      <FilenameWithoutPath>rvm_platform_STM32F767IG.sct</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
