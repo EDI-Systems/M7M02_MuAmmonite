@@ -1,0 +1,1414 @@
+
+Allocating common symbols
+Common symbol       size              file
+
+RVM_Virt_DB         0x4c0             ./Init/rvm_init.o
+RVM_Evt_DB          0x6000            ./Init/rvm_hyper.o
+RVM_Tick            0x4               ./Init/rvm_init.o
+RVM_Int_DB          0x5000            ./Init/rvm_hyper.o
+RVM_Evt_Free        0x8               ./Init/rvm_hyper.o
+RVM_Wheel           0x100             ./Init/rvm_init.o
+RVM_Run             0x100             ./Init/rvm_init.o
+RVM_Wait            0x8               ./Init/rvm_init.o
+RVM_Int_Vect        0x370             ./Init/rvm_hyper.o
+RVM_VM_Num          0x4               ./Init/rvm_init.o
+RVM_Free            0x8               ./Init/rvm_init.o
+RVM_Bitmap          0x4               ./Init/rvm_init.o
+RVM_Cur_Virt        0x4               ./Init/rvm_init.o
+RVM_Int_Free        0x8               ./Init/rvm_hyper.o
+
+Discarded input sections
+
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .group         0x00000000        0x8 ./Platform/rvm_platform_cmx.o
+ .text          0x00000000        0x0 ./Platform/rvm_platform_cmx.o
+ .data          0x00000000        0x0 ./Platform/rvm_platform_cmx.o
+ .bss           0x00000000        0x0 ./Platform/rvm_platform_cmx.o
+ .data          0x00000000        0x0 ./Platform/rvm_platform_cmx_asm_gcc.o
+ .bss           0x00000000        0x0 ./Platform/rvm_platform_cmx_asm_gcc.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_hyper.o
+ .text          0x00000000        0x0 ./Init/rvm_hyper.o
+ .data          0x00000000        0x0 ./Init/rvm_hyper.o
+ .bss           0x00000000        0x0 ./Init/rvm_hyper.o
+ .text._RVM_Strncmp
+                0x00000000       0x40 ./Init/rvm_hyper.o
+ .text._RVM_Clr_Rdy
+                0x00000000       0x3c ./Init/rvm_hyper.o
+ .text._RVM_Check_Int_Pend
+                0x00000000       0x28 ./Init/rvm_hyper.o
+ .text._RVM_Clr_Int_Flag
+                0x00000000       0x24 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x886 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x5b8 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x88 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x2e ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x3b ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x34e ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x35 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x50 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000     0x1114 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000    0x19f38 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x43 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x252 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000     0x35cf ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x22 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x4c ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x8d ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x35 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x9c ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x16 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x4a ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x97 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x30d ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0xfd ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x10 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x52 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x1f ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x43 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x20 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x187 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x10 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x5e ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x1c ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x52 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x40 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x10 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x40 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0xd7 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x16 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x18b ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x5e ./Init/rvm_hyper.o
+ .debug_macro   0x00000000     0x1add ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x6ca ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x11e ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x277 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x27 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x24f ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x71 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x58 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x23a ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x408 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x161 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x100 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x3f3 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x2e2 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0xab ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x4c ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x2e ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x22b ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0xe5 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0xa1 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x3c ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x22c ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0xcd5 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x156 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x3de ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x12 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x516 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x88 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0xe3 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x10 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x209 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x61 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x90 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x1b5 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x87 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x28d ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x255 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x132 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x10c ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x35 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x2e2 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x7b ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x313 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x4da ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0xd6 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x447 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x757 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x198 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x1ed ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x2e2 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x65b ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x2aa ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x169 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x4e8 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x47 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x1df ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x29 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x58 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x1f4 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x30 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x58 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x2f7 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x5e ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0xa5 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x89 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x1f4 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x120 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x75 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x2a3 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x137 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x2c4 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x16c ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x9a ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x28 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000      0x2dc ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x16 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x19 ./Init/rvm_hyper.o
+ .debug_macro   0x00000000       0x35 ./Init/rvm_hyper.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_init.o
+ .text          0x00000000        0x0 ./Init/rvm_init.o
+ .data          0x00000000        0x0 ./Init/rvm_init.o
+ .bss           0x00000000        0x0 ./Init/rvm_init.o
+ .text.RVM_Int_Send
+                0x00000000       0x9c ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x886 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x5b8 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x88 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x2e ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x3b ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x34e ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x35 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x50 ./Init/rvm_init.o
+ .debug_macro   0x00000000     0x1114 ./Init/rvm_init.o
+ .debug_macro   0x00000000    0x19f38 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x43 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x252 ./Init/rvm_init.o
+ .debug_macro   0x00000000     0x35cf ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x22 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x4c ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x8d ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x35 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x9c ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x16 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x4a ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x97 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x30d ./Init/rvm_init.o
+ .debug_macro   0x00000000       0xfd ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x10 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x52 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x1f ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x43 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x20 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x187 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x10 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x5e ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x1c ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x52 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x40 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x10 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x40 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0xd7 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x16 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x18b ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x5e ./Init/rvm_init.o
+ .debug_macro   0x00000000     0x1add ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x6ca ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x11e ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x277 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x27 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x24f ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x71 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x58 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x23a ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x408 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x161 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x100 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x3f3 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x2e2 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0xab ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x4c ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x2e ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x22b ./Init/rvm_init.o
+ .debug_macro   0x00000000       0xe5 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0xa1 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x3c ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x22c ./Init/rvm_init.o
+ .debug_macro   0x00000000      0xcd5 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x156 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x3de ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x12 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x516 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x88 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0xe3 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x10 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x209 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x61 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x90 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x1b5 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x87 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x28d ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x255 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x132 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x10c ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x35 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x2e2 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x7b ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x313 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x4da ./Init/rvm_init.o
+ .debug_macro   0x00000000       0xd6 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x447 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x757 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x198 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x1ed ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x2e2 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x65b ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x2aa ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x169 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x4e8 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x47 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x1df ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x29 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x58 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x1f4 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x30 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x58 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x2f7 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x5e ./Init/rvm_init.o
+ .debug_macro   0x00000000       0xa5 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x89 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x1f4 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x120 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x75 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x2a3 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x137 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x2c4 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x16c ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x9a ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x28 ./Init/rvm_init.o
+ .debug_macro   0x00000000      0x2dc ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x7c ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x94 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x16 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x19 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x16 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x16 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x35 ./Init/rvm_init.o
+ .debug_macro   0x00000000       0x35 ./Init/rvm_init.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .group         0x00000000        0x8 ./Init/rvm_syssvc.o
+ .text          0x00000000        0x0 ./Init/rvm_syssvc.o
+ .data          0x00000000        0x0 ./Init/rvm_syssvc.o
+ .bss           0x00000000        0x0 ./Init/rvm_syssvc.o
+ .text.RVM_Captbl_Del
+                0x00000000        0xc ./Init/rvm_syssvc.o
+ .text.RVM_Captbl_Frz
+                0x00000000        0xc ./Init/rvm_syssvc.o
+ .text.RVM_Captbl_Pgtbl
+                0x00000000       0x24 ./Init/rvm_syssvc.o
+ .text.RVM_Captbl_Kmem
+                0x00000000       0x3c ./Init/rvm_syssvc.o
+ .text.RVM_Captbl_Rem
+                0x00000000        0xc ./Init/rvm_syssvc.o
+ .text.RVM_Kern_Act
+                0x00000000       0x1c ./Init/rvm_syssvc.o
+ .text.RVM_Pgtbl_Del
+                0x00000000        0xc ./Init/rvm_syssvc.o
+ .text.RVM_Pgtbl_Rem
+                0x00000000       0x10 ./Init/rvm_syssvc.o
+ .text.RVM_Pgtbl_Des
+                0x00000000       0x10 ./Init/rvm_syssvc.o
+ .text.RVM_Proc_Del
+                0x00000000        0xc ./Init/rvm_syssvc.o
+ .text.RVM_Proc_Cpt
+                0x00000000       0x10 ./Init/rvm_syssvc.o
+ .text.RVM_Proc_Pgt
+                0x00000000       0x10 ./Init/rvm_syssvc.o
+ .text.RVM_Thd_Del
+                0x00000000        0xc ./Init/rvm_syssvc.o
+ .text.RVM_Thd_Sched_Free
+                0x00000000       0x10 ./Init/rvm_syssvc.o
+ .text.RVM_Thd_Swt
+                0x00000000       0x10 ./Init/rvm_syssvc.o
+ .text.RVM_Sig_Del
+                0x00000000        0xc ./Init/rvm_syssvc.o
+ .text.RVM_Inv_Crt
+                0x00000000       0x18 ./Init/rvm_syssvc.o
+ .text.RVM_Inv_Del
+                0x00000000        0xc ./Init/rvm_syssvc.o
+ .text.RVM_Inv_Set
+                0x00000000       0x1c ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x886 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x5b8 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x88 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x2e ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x3b ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x34e ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x35 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x50 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000     0x1114 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000    0x19f38 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x43 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x252 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000     0x35cf ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x22 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x4c ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x8d ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x35 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x9c ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x16 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x4a ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x97 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x30d ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0xfd ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x10 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x52 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x1f ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x43 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x20 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x187 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x10 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x5e ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x1c ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x52 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x40 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x10 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x40 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0xd7 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x16 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x18b ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x5e ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000     0x1add ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x6ca ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x11e ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x277 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x27 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x24f ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x71 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x58 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x23a ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x408 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x161 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x100 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x3f3 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x2e2 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0xab ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x4c ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x2e ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x22b ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0xe5 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0xa1 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x3c ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x22c ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0xcd5 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x156 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x3de ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x12 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x516 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x88 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0xe3 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x10 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x209 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x61 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x90 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x1b5 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x87 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x28d ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x255 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x132 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x10c ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x35 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x2e2 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x7b ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x313 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x4da ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0xd6 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x447 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x757 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x198 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x1ed ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x2e2 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x65b ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x2aa ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x169 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x4e8 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x47 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x1df ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x29 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x58 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x1f4 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x30 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x58 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x2f7 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x5e ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0xa5 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x89 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x1f4 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x120 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x75 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x2a3 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x137 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x2c4 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x16c ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x9a ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x28 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000      0x2dc ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x16 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x19 ./Init/rvm_syssvc.o
+ .debug_macro   0x00000000       0x35 ./Init/rvm_syssvc.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FRAM             0x20010000         0x00001000         xrw
+IRAM             0x20011000         0x0000e000         xrw
+SRAM             0x2001f000         0x00001000         xrw
+FLASH            0x08010000         0x00010000         xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x20020000                __stack = (ORIGIN (SRAM) + LENGTH (SRAM))
+
+.text           0x08010000     0x3b44
+ *rvm_platform_cmx_asm_gcc.o(.text .text.*)
+ .text          0x08010000       0xa4 ./Platform/rvm_platform_cmx_asm_gcc.o
+                0x08010000                _RVM_Entry
+                0x0801002e                _RVM_Jmp_Stub
+                0x08010034                RVM_Inv_Act
+                0x08010056                RVM_Inv_Ret
+                0x08010064                RVM_Svc
+                0x0801007c                _RVM_MSB_Get
+ *(.text .text.*)
+ .text.RVM_Putchar
+                0x080100a4       0x14 ./Platform/rvm_platform_cmx.o
+                0x080100a4                RVM_Putchar
+ .text.RVM_Stack_Init
+                0x080100b8       0x24 ./Platform/rvm_platform_cmx.o
+                0x080100b8                RVM_Stack_Init
+ .text._RVM_Pgtbl_Setup
+                0x080100dc      0x4d8 ./Platform/rvm_platform_cmx.o
+                0x080100dc                _RVM_Pgtbl_Setup
+ .text._RVM_Pgtbl_Check
+                0x080105b4        0x4 ./Platform/rvm_platform_cmx.o
+                0x080105b4                _RVM_Pgtbl_Check
+ .text.RVM_Idle
+                0x080105b8        0x4 ./Platform/rvm_platform_cmx.o
+                0x080105b8                RVM_Idle
+ .text._RVM_Set_Rdy
+                0x080105bc       0x3c ./Init/rvm_hyper.o
+                0x080105bc                _RVM_Set_Rdy
+ .text._RVM_Get_High_Rdy
+                0x080105f8       0x20 ./Init/rvm_hyper.o
+                0x080105f8                _RVM_Get_High_Rdy
+ .text._RVM_Virt_Switch
+                0x08010618      0x184 ./Init/rvm_hyper.o
+                0x08010618                _RVM_Virt_Switch
+ .text._RVM_Set_Int_Flag
+                0x0801079c       0x24 ./Init/rvm_hyper.o
+                0x0801079c                _RVM_Set_Int_Flag
+ .text.RVM_Hyp_Enable_Int
+                0x080107c0       0xc8 ./Init/rvm_hyper.o
+                0x080107c0                RVM_Hyp_Enable_Int
+ .text.RVM_Hyp_Disable_Int
+                0x08010888       0x20 ./Init/rvm_hyper.o
+                0x08010888                RVM_Hyp_Disable_Int
+ .text.RVM_Hyp_Reg_Int
+                0x080108a8       0xa4 ./Init/rvm_hyper.o
+                0x080108a8                RVM_Hyp_Reg_Int
+ .text.RVM_Hyp_Del_Int
+                0x0801094c       0x70 ./Init/rvm_hyper.o
+                0x0801094c                RVM_Hyp_Del_Int
+ .text.RVM_Hyp_Reg_Evt
+                0x080109bc       0x90 ./Init/rvm_hyper.o
+                0x080109bc                RVM_Hyp_Reg_Evt
+ .text.RVM_Hyp_Del_Evt
+                0x08010a4c       0x70 ./Init/rvm_hyper.o
+                0x08010a4c                RVM_Hyp_Del_Evt
+ .text.RVM_Hyp_Wait_Evt
+                0x08010abc      0x204 ./Init/rvm_hyper.o
+                0x08010abc                RVM_Hyp_Wait_Evt
+ .text.RVM_Hyp_Send_Evt
+                0x08010cc0      0x114 ./Init/rvm_hyper.o
+                0x08010cc0                RVM_Hyp_Send_Evt
+ .text.RVM_Hyp_Query_Evt
+                0x08010dd4       0x78 ./Init/rvm_hyper.o
+                0x08010dd4                RVM_Hyp_Query_Evt
+ .text.RVM_Hyp_Query_VM
+                0x08010e4c      0x174 ./Init/rvm_hyper.o
+                0x08010e4c                RVM_Hyp_Query_VM
+ .text.RVM_Hyp_Tim_Prog
+                0x08010fc0       0x34 ./Init/rvm_hyper.o
+                0x08010fc0                RVM_Hyp_Tim_Prog
+ .text.RVM_Hyp_Print
+                0x08010ff4       0x4c ./Init/rvm_hyper.o
+                0x08010ff4                RVM_Hyp_Print
+ .text.RVM_Int_Get
+                0x08011040       0xcc ./Init/rvm_init.o
+ .text.RVM_VMM_Daemon
+                0x0801110c       0xac ./Init/rvm_init.o
+ .text.RVM_Guard_Daemon
+                0x080111b8       0x28 ./Init/rvm_init.o
+ .text.RVM_Interrupt_Daemon
+                0x080111e0      0x25c ./Init/rvm_init.o
+ .text.RVM_Timer_Daemon
+                0x0801143c      0x188 ./Init/rvm_init.o
+ .text._RVM_Wheel_Ins
+                0x080115c4       0x3c ./Init/rvm_init.o
+                0x080115c4                _RVM_Wheel_Ins
+ .text.startup.main
+                0x08011600     0x1630 ./Init/rvm_init.o
+                0x08011600                main
+ .text.RVM_List_Crt
+                0x08012c30        0x8 ./Init/rvm_syssvc.o
+                0x08012c30                RVM_List_Crt
+ .text.RVM_List_Del
+                0x08012c38        0x8 ./Init/rvm_syssvc.o
+                0x08012c38                RVM_List_Del
+ .text.RVM_List_Ins
+                0x08012c40        0xc ./Init/rvm_syssvc.o
+                0x08012c40                RVM_List_Ins
+ .text.RVM_Print_Int
+                0x08012c4c       0xcc ./Init/rvm_syssvc.o
+                0x08012c4c                RVM_Print_Int
+ .text.RVM_Print_Uint
+                0x08012d18       0x58 ./Init/rvm_syssvc.o
+                0x08012d18                RVM_Print_Uint
+ .text.RVM_Print_String
+                0x08012d70       0x20 ./Init/rvm_syssvc.o
+                0x08012d70                RVM_Print_String
+ .text.RVM_Captbl_Crt
+                0x08012d90       0x18 ./Init/rvm_syssvc.o
+                0x08012d90                RVM_Captbl_Crt
+ .text.RVM_Captbl_Add
+                0x08012da8       0x1c ./Init/rvm_syssvc.o
+                0x08012da8                RVM_Captbl_Add
+ .text.RVM_Captbl_Kern
+                0x08012dc4       0x20 ./Init/rvm_syssvc.o
+                0x08012dc4                RVM_Captbl_Kern
+ .text.RVM_Pgtbl_Crt
+                0x08012de4       0x28 ./Init/rvm_syssvc.o
+                0x08012de4                RVM_Pgtbl_Crt
+ .text.RVM_Pgtbl_Add
+                0x08012e0c       0x24 ./Init/rvm_syssvc.o
+                0x08012e0c                RVM_Pgtbl_Add
+ .text.RVM_Pgtbl_Con
+                0x08012e30       0x18 ./Init/rvm_syssvc.o
+                0x08012e30                RVM_Pgtbl_Con
+ .text.RVM_Proc_Crt
+                0x08012e48       0x1c ./Init/rvm_syssvc.o
+                0x08012e48                RVM_Proc_Crt
+ .text.RVM_Thd_Crt
+                0x08012e64       0x1c ./Init/rvm_syssvc.o
+                0x08012e64                RVM_Thd_Crt
+ .text.RVM_Thd_Exec_Set
+                0x08012e80        0x8 ./Init/rvm_syssvc.o
+                0x08012e80                RVM_Thd_Exec_Set
+ .text.RVM_Thd_Hyp_Set
+                0x08012e88       0x10 ./Init/rvm_syssvc.o
+                0x08012e88                RVM_Thd_Hyp_Set
+ .text.RVM_Thd_Sched_Bind
+                0x08012e98       0x18 ./Init/rvm_syssvc.o
+                0x08012e98                RVM_Thd_Sched_Bind
+ .text.RVM_Thd_Sched_Rcv
+                0x08012eb0       0x10 ./Init/rvm_syssvc.o
+                0x08012eb0                RVM_Thd_Sched_Rcv
+ .text.RVM_Thd_Sched_Prio
+                0x08012ec0       0x10 ./Init/rvm_syssvc.o
+                0x08012ec0                RVM_Thd_Sched_Prio
+ .text.RVM_Thd_Time_Xfer
+                0x08012ed0       0x10 ./Init/rvm_syssvc.o
+                0x08012ed0                RVM_Thd_Time_Xfer
+ .text.RVM_Sig_Crt
+                0x08012ee0        0x8 ./Init/rvm_syssvc.o
+                0x08012ee0                RVM_Sig_Crt
+ .text.RVM_Sig_Snd
+                0x08012ee8       0x10 ./Init/rvm_syssvc.o
+                0x08012ee8                RVM_Sig_Snd
+ .text.RVM_Sig_Rcv
+                0x08012ef8       0x10 ./Init/rvm_syssvc.o
+                0x08012ef8                RVM_Sig_Rcv
+ *(.rodata .rodata.* .constdata .constdata.*)
+ .rodata.str1.4
+                0x08012f08      0x12f ./Platform/rvm_platform_cmx.o
+                                0x137 (size before relaxing)
+ *fill*         0x08013037        0x1 
+ .rodata.str1.4
+                0x08013038       0x58 ./Init/rvm_hyper.o
+                                 0xb4 (size before relaxing)
+ .rodata.str1.4
+                0x08013090      0xab4 ./Init/rvm_init.o
+                                0xb5c (size before relaxing)
+                0x08014000                _sidata = LOADADDR (.data)
+
+.glue_7         0x08013b44        0x0
+ .glue_7        0x08013b44        0x0 linker stubs
+
+.glue_7t        0x08013b44        0x0
+ .glue_7t       0x08013b44        0x0 linker stubs
+
+.vfp11_veneer   0x08013b44        0x0
+ .vfp11_veneer  0x08013b44        0x0 linker stubs
+
+.v4_bx          0x08013b44        0x0
+ .v4_bx         0x08013b44        0x0 linker stubs
+
+.iplt           0x08013b44        0x0
+ .iplt          0x08013b44        0x0 ./Platform/rvm_platform_cmx.o
+
+.rel.dyn        0x08013b44        0x0
+ .rel.iplt      0x08013b44        0x0 ./Platform/rvm_platform_cmx.o
+
+.data           0x20012000        0x0 load address 0x08014000
+ FILL mask 0xff
+                0x20012000                _sdata = .
+                0x20012000                __data_start__ = .
+ *(.data_begin .data_begin.*)
+ *(.data .data.*)
+ *(.data_end .data_end.*)
+                0x20012000                . = ALIGN (0x4)
+                0x20012000                _edata = .
+                0x20012000                __data_end__ = .
+
+.igot.plt       0x20011000        0x0 load address 0x08013b44
+ .igot.plt      0x20011000        0x0 ./Platform/rvm_platform_cmx.o
+
+.bss            0x20011000     0xda64 load address 0x08013b44
+                0x20011000                __bss_start__ = .
+                0x20011000                _sbss = .
+ *(.bss_begin .bss_begin.*)
+ *(.bss .bss.*)
+ .bss.RVM_TID_Inc
+                0x20011000        0x4 ./Init/rvm_init.o
+ .bss.RVM_GUARD_Stack
+                0x20011004      0x800 ./Init/rvm_init.o
+ .bss.RVM_INTD_Stack
+                0x20011804      0x800 ./Init/rvm_init.o
+ .bss.RVM_TIMD_Stack
+                0x20012004      0x800 ./Init/rvm_init.o
+ .bss.RVM_VMMD_Stack
+                0x20012804      0x800 ./Init/rvm_init.o
+ *(COMMON)
+ COMMON         0x20013004     0xb380 ./Init/rvm_hyper.o
+                0x20013004                RVM_Evt_DB
+                0x20019004                RVM_Int_DB
+                0x2001e004                RVM_Evt_Free
+                0x2001e00c                RVM_Int_Vect
+                0x2001e37c                RVM_Int_Free
+ COMMON         0x2001e384      0x6e0 ./Init/rvm_init.o
+                0x2001e384                RVM_Virt_DB
+                0x2001e844                RVM_Tick
+                0x2001e848                RVM_Wheel
+                0x2001e948                RVM_Run
+                0x2001ea48                RVM_Wait
+                0x2001ea50                RVM_VM_Num
+                0x2001ea54                RVM_Free
+                0x2001ea5c                RVM_Bitmap
+                0x2001ea60                RVM_Cur_Virt
+ *(.bss_end .bss_end.*)
+                0x2001ea64                . = ALIGN (0x4)
+                0x2001ea64                __bss_end__ = .
+                0x2001ea64                _ebss = .
+
+.noinit         0x2001ea64        0x0 load address 0x08013b44
+                0x2001ea64                _noinit = .
+ *(.noinit .noinit.*)
+                0x2001ea64                . = ALIGN (0x4)
+                0x2001ea64                _end_noinit = .
+                [!provide]                PROVIDE (end, _end_noinit)
+                [!provide]                PROVIDE (_end, _end_noinit)
+                [!provide]                PROVIDE (__end, _end_noinit)
+                [!provide]                PROVIDE (__end__, _end_noinit)
+LOAD ./Platform/rvm_platform_cmx.o
+LOAD ./Platform/rvm_platform_cmx_asm_gcc.o
+LOAD ./Init/rvm_hyper.o
+LOAD ./Init/rvm_init.o
+LOAD ./Init/rvm_syssvc.o
+START GROUP
+LOAD /home/pry/eclipse/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a
+LOAD /home/pry/eclipse/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a
+END GROUP
+OUTPUT(RVM elf32-littlearm)
+
+.debug_info     0x00000000     0x8d7f
+ .debug_info    0x00000000      0xd2b ./Platform/rvm_platform_cmx.o
+ .debug_info    0x00000d2b     0x1886 ./Init/rvm_hyper.o
+ .debug_info    0x000025b1     0x529a ./Init/rvm_init.o
+ .debug_info    0x0000784b     0x1534 ./Init/rvm_syssvc.o
+
+.debug_abbrev   0x00000000      0x995
+ .debug_abbrev  0x00000000      0x20c ./Platform/rvm_platform_cmx.o
+ .debug_abbrev  0x0000020c      0x2de ./Init/rvm_hyper.o
+ .debug_abbrev  0x000004ea      0x31a ./Init/rvm_init.o
+ .debug_abbrev  0x00000804      0x191 ./Init/rvm_syssvc.o
+
+.debug_loc      0x00000000     0x2f4f
+ .debug_loc     0x00000000      0x745 ./Platform/rvm_platform_cmx.o
+ .debug_loc     0x00000745      0x9bb ./Init/rvm_hyper.o
+ .debug_loc     0x00001100      0x947 ./Init/rvm_init.o
+ .debug_loc     0x00001a47     0x1508 ./Init/rvm_syssvc.o
+
+.debug_aranges  0x00000000      0x2b8
+ .debug_aranges
+                0x00000000       0x40 ./Platform/rvm_platform_cmx.o
+ .debug_aranges
+                0x00000040       0xb8 ./Init/rvm_hyper.o
+ .debug_aranges
+                0x000000f8       0x58 ./Init/rvm_init.o
+ .debug_aranges
+                0x00000150      0x168 ./Init/rvm_syssvc.o
+
+.debug_ranges   0x00000000      0x470
+ .debug_ranges  0x00000000       0x60 ./Platform/rvm_platform_cmx.o
+ .debug_ranges  0x00000060      0x160 ./Init/rvm_hyper.o
+ .debug_ranges  0x000001c0      0x158 ./Init/rvm_init.o
+ .debug_ranges  0x00000318      0x158 ./Init/rvm_syssvc.o
+
+.debug_macro    0x00000000    0x2cceb
+ .debug_macro   0x00000000      0x55b ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0000055b      0x886 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00000de1      0x5b8 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00001399       0x88 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00001421       0x2e ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0000144f       0x3b ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0000148a      0x34e ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x000017d8       0x35 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0000180d       0x50 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0000185d     0x1114 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00002971    0x19f38 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0001c8a9       0x43 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0001c8ec      0x252 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0001cb3e     0x35cf ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002010d       0x22 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002012f       0x4c ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002017b       0x8d ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00020208       0x35 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002023d       0x9c ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x000202d9       0x16 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x000202ef       0x4a ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00020339       0x97 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x000203d0      0x30d ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x000206dd       0xfd ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x000207da       0x10 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x000207ea       0x52 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002083c       0x1f ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002085b       0x43 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002089e       0x20 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x000208be      0x187 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00020a45       0x10 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00020a55       0x5e ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00020ab3       0x1c ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00020acf       0x52 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00020b21       0x40 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00020b61       0x10 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00020b71       0x40 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00020bb1       0xd7 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00020c88       0x16 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00020c9e      0x18b ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00020e29       0x5e ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00020e87     0x1add ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00022964      0x6ca ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002302e      0x11e ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002314c      0x277 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x000233c3       0x27 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x000233ea      0x24f ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00023639       0x71 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x000236aa       0x58 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00023702      0x23a ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002393c      0x408 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00023d44      0x161 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00023ea5      0x100 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00023fa5      0x3f3 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00024398      0x2e2 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002467a       0xab ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00024725       0x4c ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00024771       0x2e ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002479f      0x22b ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x000249ca       0xe5 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00024aaf       0xa1 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00024b50       0x3c ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00024b8c      0x22c ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00024db8      0xcd5 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00025a8d      0x156 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00025be3      0x3de ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00025fc1       0x12 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00025fd3      0x516 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x000264e9       0x88 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00026571       0xe3 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00026654       0x10 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00026664      0x209 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002686d       0x61 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x000268ce       0x90 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002695e      0x1b5 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00026b13       0x87 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00026b9a      0x28d ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00026e27      0x255 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002707c      0x132 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x000271ae      0x10c ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x000272ba       0x35 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x000272ef      0x2e2 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x000275d1       0x7b ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002764c      0x313 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002795f      0x4da ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00027e39       0xd6 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00027f0f      0x447 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00028356      0x757 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00028aad      0x198 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00028c45      0x1ed ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00028e32      0x2e2 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00029114      0x65b ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002976f      0x2aa ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00029a19      0x169 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x00029b82      0x4e8 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002a06a       0x47 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002a0b1      0x1df ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002a290       0x29 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002a2b9       0x58 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002a311      0x1f4 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002a505       0x30 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002a535       0x58 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002a58d      0x2f7 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002a884       0x5e ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002a8e2       0xa5 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002a987       0x89 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002aa10      0x1f4 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002ac04      0x120 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002ad24       0x75 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002ad99      0x2a3 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002b03c      0x137 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002b173      0x2c4 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002b437      0x16c ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002b5a3       0x9a ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002b63d       0x28 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002b665      0x2dc ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002b941       0x16 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002b957       0x19 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002b970       0x35 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002b9a5       0x35 ./Platform/rvm_platform_cmx.o
+ .debug_macro   0x0002b9da      0x59d ./Init/rvm_hyper.o
+ .debug_macro   0x0002bf77       0x7c ./Init/rvm_hyper.o
+ .debug_macro   0x0002bff3       0x94 ./Init/rvm_hyper.o
+ .debug_macro   0x0002c087       0x16 ./Init/rvm_hyper.o
+ .debug_macro   0x0002c09d       0x16 ./Init/rvm_hyper.o
+ .debug_macro   0x0002c0b3       0x30 ./Init/rvm_hyper.o
+ .debug_macro   0x0002c0e3       0x35 ./Init/rvm_hyper.o
+ .debug_macro   0x0002c118       0x35 ./Init/rvm_hyper.o
+ .debug_macro   0x0002c14d      0x59d ./Init/rvm_init.o
+ .debug_macro   0x0002c6ea       0x35 ./Init/rvm_init.o
+ .debug_macro   0x0002c71f       0x30 ./Init/rvm_init.o
+ .debug_macro   0x0002c74f      0x567 ./Init/rvm_syssvc.o
+ .debug_macro   0x0002ccb6       0x35 ./Init/rvm_syssvc.o
+
+.debug_line     0x00000000     0x4ad7
+ .debug_line    0x00000000     0x106a ./Platform/rvm_platform_cmx.o
+ .debug_line    0x0000106a     0x135a ./Init/rvm_hyper.o
+ .debug_line    0x000023c4     0x139f ./Init/rvm_init.o
+ .debug_line    0x00003763     0x1374 ./Init/rvm_syssvc.o
+
+.debug_str      0x00000000   0x12ca68
+ .debug_str     0x00000000   0x12bb28 ./Platform/rvm_platform_cmx.o
+                             0x12be62 (size before relaxing)
+ .debug_str     0x0012bb28      0x961 ./Init/rvm_hyper.o
+                             0x12c678 (size before relaxing)
+ .debug_str     0x0012c489      0x2a6 ./Init/rvm_init.o
+                             0x12c8bb (size before relaxing)
+ .debug_str     0x0012c72f      0x339 ./Init/rvm_syssvc.o
+                             0x12c172 (size before relaxing)
+
+.comment        0x00000000       0x6e
+ .comment       0x00000000       0x6e ./Platform/rvm_platform_cmx.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f ./Init/rvm_hyper.o
+ .comment       0x0000006e       0x6f ./Init/rvm_init.o
+ .comment       0x0000006e       0x6f ./Init/rvm_syssvc.o
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x35 ./Platform/rvm_platform_cmx.o
+ .ARM.attributes
+                0x00000035       0x1f ./Platform/rvm_platform_cmx_asm_gcc.o
+ .ARM.attributes
+                0x00000054       0x35 ./Init/rvm_hyper.o
+ .ARM.attributes
+                0x00000089       0x35 ./Init/rvm_init.o
+ .ARM.attributes
+                0x000000be       0x35 ./Init/rvm_syssvc.o
+
+.debug_frame    0x00000000      0x814
+ .debug_frame   0x00000000       0x88 ./Platform/rvm_platform_cmx.o
+ .debug_frame   0x00000088      0x2d0 ./Init/rvm_hyper.o
+ .debug_frame   0x00000358      0x120 ./Init/rvm_init.o
+ .debug_frame   0x00000478      0x39c ./Init/rvm_syssvc.o
