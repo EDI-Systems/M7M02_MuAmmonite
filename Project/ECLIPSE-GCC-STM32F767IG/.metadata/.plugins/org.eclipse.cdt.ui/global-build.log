@@ -1,0 +1,40 @@
+19:03:59 **** Build of configuration Debug for project RVM ****
+make all 
+make --no-print-directory pre-build
+../copy.sh
+ 
+make --no-print-directory main-build
+Building file: /media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/MAmmonite/Platform/CortexM/rvm_platform_cmx.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F767xx -DUSE_HAL_DRIVER -I"/media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/Project/ECLIPSE-GCC-STM32F767IG/../../../M7M1_MuEukaron/MEukaron/Include" -I"/media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/Project/ECLIPSE-GCC-STM32F767IG/../../MAmmonite/Include" -I"/media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/Project/ECLIPSE-GCC-STM32F767IG/../../../M0P0_Library/STM32Cube_FW_F7_V1.11.0/Drivers/STM32F7xx_HAL_Driver/Inc" -I"/media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/Project/ECLIPSE-GCC-STM32F767IG/../../../M0P0_Library/STM32Cube_FW_F7_V1.11.0/Drivers/STM32F7xx_HAL_Driver/Inc/Conf" -I"/media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/Project/ECLIPSE-GCC-STM32F767IG/../../../M0P0_Library/STM32Cube_FW_F7_V1.11.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"/media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/Project/ECLIPSE-GCC-STM32F767IG/../../../M0P0_Library/STM32Cube_FW_F7_V1.11.0/Drivers/CMSIS/Include" -O3 -g3 -Wall -mcpu=cortex-m7 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mno-unaligned-access -c -fmessage-length=0 -ffreestanding  -fomit-frame-pointer -ffunction-sections -fdata-sections -fno-strict-aliasing -MMD -MP -MF"Platform/rvm_platform_cmx.d" -MT"Platform/rvm_platform_cmx.o" -o "Platform/rvm_platform_cmx.o" "/media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/MAmmonite/Platform/CortexM/rvm_platform_cmx.c"
+Finished building: /media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/MAmmonite/Platform/CortexM/rvm_platform_cmx.c
+ 
+Building file: /media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/MAmmonite/Platform/CortexM/rvm_platform_cmx_asm_gcc.S
+Invoking: Cross GCC Assembler
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c -o "Platform/rvm_platform_cmx_asm_gcc.o" "/media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/MAmmonite/Platform/CortexM/rvm_platform_cmx_asm_gcc.S"
+Finished building: /media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/MAmmonite/Platform/CortexM/rvm_platform_cmx_asm_gcc.S
+ 
+Building file: /media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/MAmmonite/Init/rvm_hyper.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F767xx -DUSE_HAL_DRIVER -I"/media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/Project/ECLIPSE-GCC-STM32F767IG/../../../M7M1_MuEukaron/MEukaron/Include" -I"/media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/Project/ECLIPSE-GCC-STM32F767IG/../../MAmmonite/Include" -I"/media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/Project/ECLIPSE-GCC-STM32F767IG/../../../M0P0_Library/STM32Cube_FW_F7_V1.11.0/Drivers/STM32F7xx_HAL_Driver/Inc" -I"/media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/Project/ECLIPSE-GCC-STM32F767IG/../../../M0P0_Library/STM32Cube_FW_F7_V1.11.0/Drivers/STM32F7xx_HAL_Driver/Inc/Conf" -I"/media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/Project/ECLIPSE-GCC-STM32F767IG/../../../M0P0_Library/STM32Cube_FW_F7_V1.11.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"/media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/Project/ECLIPSE-GCC-STM32F767IG/../../../M0P0_Library/STM32Cube_FW_F7_V1.11.0/Drivers/CMSIS/Include" -O3 -g3 -Wall -mcpu=cortex-m7 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mno-unaligned-access -c -fmessage-length=0 -ffreestanding  -fomit-frame-pointer -ffunction-sections -fdata-sections -fno-strict-aliasing -MMD -MP -MF"Init/rvm_hyper.d" -MT"Init/rvm_hyper.o" -o "Init/rvm_hyper.o" "/media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/MAmmonite/Init/rvm_hyper.c"
+Finished building: /media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/MAmmonite/Init/rvm_hyper.c
+ 
+Building file: /media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/MAmmonite/Init/rvm_init.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F767xx -DUSE_HAL_DRIVER -I"/media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/Project/ECLIPSE-GCC-STM32F767IG/../../../M7M1_MuEukaron/MEukaron/Include" -I"/media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/Project/ECLIPSE-GCC-STM32F767IG/../../MAmmonite/Include" -I"/media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/Project/ECLIPSE-GCC-STM32F767IG/../../../M0P0_Library/STM32Cube_FW_F7_V1.11.0/Drivers/STM32F7xx_HAL_Driver/Inc" -I"/media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/Project/ECLIPSE-GCC-STM32F767IG/../../../M0P0_Library/STM32Cube_FW_F7_V1.11.0/Drivers/STM32F7xx_HAL_Driver/Inc/Conf" -I"/media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/Project/ECLIPSE-GCC-STM32F767IG/../../../M0P0_Library/STM32Cube_FW_F7_V1.11.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"/media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/Project/ECLIPSE-GCC-STM32F767IG/../../../M0P0_Library/STM32Cube_FW_F7_V1.11.0/Drivers/CMSIS/Include" -O3 -g3 -Wall -mcpu=cortex-m7 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mno-unaligned-access -c -fmessage-length=0 -ffreestanding  -fomit-frame-pointer -ffunction-sections -fdata-sections -fno-strict-aliasing -MMD -MP -MF"Init/rvm_init.d" -MT"Init/rvm_init.o" -o "Init/rvm_init.o" "/media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/MAmmonite/Init/rvm_init.c"
+Finished building: /media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/MAmmonite/Init/rvm_init.c
+ 
+Building file: /media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/MAmmonite/Init/rvm_syssvc.c
+Invoking: Cross GCC Compiler
+arm-none-eabi-gcc -DSTM32F767xx -DUSE_HAL_DRIVER -I"/media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/Project/ECLIPSE-GCC-STM32F767IG/../../../M7M1_MuEukaron/MEukaron/Include" -I"/media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/Project/ECLIPSE-GCC-STM32F767IG/../../MAmmonite/Include" -I"/media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/Project/ECLIPSE-GCC-STM32F767IG/../../../M0P0_Library/STM32Cube_FW_F7_V1.11.0/Drivers/STM32F7xx_HAL_Driver/Inc" -I"/media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/Project/ECLIPSE-GCC-STM32F767IG/../../../M0P0_Library/STM32Cube_FW_F7_V1.11.0/Drivers/STM32F7xx_HAL_Driver/Inc/Conf" -I"/media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/Project/ECLIPSE-GCC-STM32F767IG/../../../M0P0_Library/STM32Cube_FW_F7_V1.11.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"/media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/Project/ECLIPSE-GCC-STM32F767IG/../../../M0P0_Library/STM32Cube_FW_F7_V1.11.0/Drivers/CMSIS/Include" -O3 -g3 -Wall -mcpu=cortex-m7 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mno-unaligned-access -c -fmessage-length=0 -ffreestanding  -fomit-frame-pointer -ffunction-sections -fdata-sections -fno-strict-aliasing -MMD -MP -MF"Init/rvm_syssvc.d" -MT"Init/rvm_syssvc.o" -o "Init/rvm_syssvc.o" "/media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/MAmmonite/Init/rvm_syssvc.c"
+Finished building: /media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/MAmmonite/Init/rvm_syssvc.c
+ 
+Building target: RVM
+Invoking: Cross GCC Linker
+arm-none-eabi-gcc -nostartfiles -mcpu=cortex-m7 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mno-unaligned-access -Xlinker -m -Xlinker armelf -Xlinker -T -Xlinker  /media/pry/Code/Code_Library/MCU/Mutatus/M7M2_MuAmmonite/Project/ECLIPSE-GCC-STM32F767IG/../../MAmmonite/Include/Platform/CortexM/Chips/STM32F767IG/rvm_platform_STM32F767IG.ld -Xlinker --gc-sections -Xlinker -Map=RVM.map -o "RVM"  ./Platform/rvm_platform_cmx.o ./Platform/rvm_platform_cmx_asm_gcc.o  ./Init/rvm_hyper.o ./Init/rvm_init.o ./Init/rvm_syssvc.o   
+Finished building target: RVM
+ 
+make --no-print-directory post-build
+../image.sh
+Size of programming file: 15172 8-bit words.
+ 
